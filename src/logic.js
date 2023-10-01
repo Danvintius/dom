@@ -4,7 +4,7 @@ const lost = document.getElementById('lost');
 getHole = (index) => document.getElementById(`hole${index}`);
 
 
-for (let index = 1; index <= 9; index++) {
+for (let index = 1; index <= 16; index++) {
 getHole(index).onclick = function() {
     if (getHole(index).className.includes('hole_has-goblin')) {
        dead.textContent++;  
