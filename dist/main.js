@@ -1,0 +1,1 @@
+(()=>{let e=1;const o=e=>document.getElementById(`hole${e}`),l=()=>setTimeout((()=>{o(e).className="hole",e=Math.floor(1+9*Math.random()),o(e).className="hole hole_has-goblin",l()}),1e3);l()})();
